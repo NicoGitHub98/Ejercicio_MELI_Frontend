@@ -1,0 +1,9 @@
+.categories {
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 14px;
+    padding: 16px 0px;
+}
+
+.categories span:last-child {
+    font-weight: bold;
+}

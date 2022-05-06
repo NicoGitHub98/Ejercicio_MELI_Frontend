@@ -1,0 +1,29 @@
+{
+  "name": "meli_test_backend",
+  "version": "1.0.0",
+  "description": "Backend API for MELI Test",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^28.0.3",
+    "supertest": "^6.2.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose --silent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoGitHub98/meli_backend.git"
+  },
+  "author": "Nicolas Marquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoGitHub98/meli_backend/issues"
+  },
+  "homepage": "https://github.com/NicoGitHub98/meli_backend#readme"
+}

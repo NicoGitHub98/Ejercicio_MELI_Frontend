@@ -1,0 +1,13 @@
+.searchResultsPage {
+    background-color: #EEEEEE;
+}
+
+.searchResultsPage .products {
+    background-color: white;
+}
+
+.searchResultsPage .productSeparator {
+    width: 95%;
+    margin: auto;
+    opacity: 0.1;
+}

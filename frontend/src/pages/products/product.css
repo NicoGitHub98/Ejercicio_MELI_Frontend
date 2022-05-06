@@ -1,0 +1,52 @@
+.product {
+    margin: 16px 0px;
+    padding: 0px;
+}
+.product:hover {
+    cursor: pointer;
+}
+
+.productPicture {
+    width: 180px;
+    margin: 0px 16px;
+    padding: 0;
+    border-radius: 4px;
+}
+.productPicture img {
+    width: 180px;
+}
+
+.productDetails {
+    padding: 0px;
+}
+
+.productPrice {
+    font-size: 24px;
+}
+
+.decimals {
+    font-size: 0.5em;
+    vertical-align: 10px;
+}
+
+.productTitle {
+    font-size: 18px;
+}
+
+.productPrice .col{
+    padding: 0px;
+}
+
+.location {
+    margin-top: 32px;
+    font-size: 12px;
+    opacity: 0.5;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+.freeShipping {
+    padding-left: 0px;
+}
+
+.freeShipping img {
+    vertical-align: -10px;
+}

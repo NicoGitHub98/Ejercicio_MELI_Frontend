@@ -1,0 +1,17 @@
+.searchBar {
+    padding: 10px;
+    background-color: #FFE600;
+}
+
+.searchBar button{
+    background-color: #EEEEEE;
+}
+
+.clickable:hover {
+    cursor: pointer;
+}
+
+.searchBar input,
+.searchBar input::-webkit-input-placeholder {
+    font-size: 18px;
+}
