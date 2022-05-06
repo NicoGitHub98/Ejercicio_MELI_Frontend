@@ -9,6 +9,8 @@
 .productDetailsPage .productImage {
     width: 680px;
     height: 680px;
+    padding: 0px;
+    margin: 0px 12px
 }
 
 .productDetailsPage .productImage img {
@@ -42,7 +44,7 @@
 }
 
 .productDetailsPage .productDescription {
-    padding-left: 32px;
+    margin-left: 32px;
 }
 
 .productDetailsPage .productDescriptionTitle {

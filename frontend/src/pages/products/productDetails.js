@@ -33,7 +33,7 @@ function ProductDetails() {
                     <Row className='productBox'>
                         <Row>
                             <Col xs='7' className='productImage'>
-                                <img src={productInfo.item?.picture} alt={productInfo.item?.description} />
+                                <img src={productInfo.item?.picture} alt={productInfo.item?.description} width='680'/>
                             </Col>
                             <Col xs='3'>
                                 <Row>
@@ -43,7 +43,7 @@ function ProductDetails() {
                                     <Col className='productTitle'>{productInfo.item?.title}</Col>
                                 </Row>
                                 <Row>
-                                    <Col className='productPrice'>$&nbsp;{productInfo.item?.price.amount}<span className='productPriceDecimals'>{productInfo.item?.price.decimals}</span></Col>
+                                    <Col className='productPrice'>$&nbsp;{productInfo.item?.price.amount.toLocaleString()}<span className='productPriceDecimals'>{productInfo.item?.price.decimals}</span></Col>
                                 </Row>
                                 <Row>
                                     <Col className='purchaseButton d-grid gap-2'>
@@ -57,7 +57,7 @@ function ProductDetails() {
                                 <Col className='productDescriptionTitle'>Descripcion del Producto</Col>
                             </Row>
                             <Row>
-                                <Col className='productDescriptionAbout'>{productInfo.item?.description}</Col>
+                                <Col xs='8' className='productDescriptionAbout'>{productInfo.item?.description}</Col>
                             </Row>
                         </Row>
                     </Row>
